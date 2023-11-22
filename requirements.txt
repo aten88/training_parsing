@@ -1,5 +1,6 @@
 attrs==23.1.0
 beautifulsoup4==4.12.2
+bs4==0.0.1
 cattrs==23.2.1
 certifi==2023.11.17
 charset-normalizer==3.3.2
@@ -7,6 +8,7 @@ colorama==0.4.6
 idna==3.4
 lxml==4.9.3
 platformdirs==4.0.0
+prettify==0.1.1
 requests==2.31.0
 requests-cache==1.0.0
 six==1.16.0
