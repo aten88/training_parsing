@@ -3,9 +3,11 @@ beautifulsoup4==4.12.2
 bs4==0.0.1
 cattrs==23.2.1
 certifi==2023.11.17
+chardet==5.2.0
 charset-normalizer==3.3.2
 colorama==0.4.6
 idna==3.4
+itsdangerous==2.1.2
 lxml==4.9.3
 platformdirs==4.0.0
 prettify==0.1.1
