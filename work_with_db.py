@@ -47,6 +47,7 @@ if __name__ == '__main__':
     #     update(Pep).where(Pep.pep_number == 1000).values(status='Proposal')
     # )
     # session.commit()
+
     # Чтение обьекта методом execute с использованием метода select
     # и фильтра where
     # result = session.execute(
@@ -63,6 +64,7 @@ if __name__ == '__main__':
     #     )
     # )
     # session.commit()
+
     # Устанавливает статус Active для всех обьектов
     # session.query(Pep).update(
     #     {'status': 'Active'}
