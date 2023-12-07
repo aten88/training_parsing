@@ -20,7 +20,10 @@ numbers = [item for item in number_title if item.isdigit()]
 
 title = [item for item in number_title if not item.isdigit()]
 
-authors = [', '.join(author.stripped_strings) for author in num_index_section.find_all('td')[3::5]]
+authors = [
+    ', '.join(author.stripped_strings)
+    for author in num_index_section.find_all('td')[3::5]
+]
 
 
 class PreBase:
